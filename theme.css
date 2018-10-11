@@ -1,0 +1,49 @@
+/* #-#-#  Base Theme Styles  #-#-# 
+
+Leaf Green
+#8EB734
+
+Tomato
+#AC4C3D
+
+Sesame
+#B6AE96
+
+Cool Brown
+#5A4643
+
+*/
+
+body {
+  font: ;
+}
+
+.clear:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* --- General Layout  --- */
+
+
+/* --- Core Layout  --- */
+.block.note {}
+
+.block.note .note-label,
+.block.note ul {
+  float: left;
+}
+.block.note .note-label {
+  max-width: 25%;
+}
+.block.note .note-body {
+  max-width: 75%;
+}
+
+.block.note .note-label {
+  text-align: right;
+}
+
+
+/* --- Specific Content  --- */
