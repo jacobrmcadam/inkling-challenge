@@ -1,0 +1,60 @@
+/* --- ARTEMIS BURGER | BASE THEME STYLES --- */
+
+body {
+  
+}
+
+.no-marg-bot {
+  margin-bottom: 0;
+}
+
+/* --- --- Core --- --- */
+
+#banner {}
+
+#banner img {
+  width: 100%;
+}
+
+#main {}
+
+#main #intro {}
+
+#main .note-block {}
+
+#main .note-block .note-label p {
+  float: right;
+}
+#main .note-block .note-label p .material-icons {
+  padding-left: 10px;
+}
+
+.note-description {}
+
+#footer {}
+
+/* --- --- Media Queries --- --- */
+
+/* --- Mobile <= 600px */
+@media screen and (max-width: 600px) {
+
+  #main .note-block .note-label p {
+    float: left;
+  }
+  
+}
+
+/* --- Tablet > 600px */
+@media screen and (max-width: 991px) {
+  
+}
+
+/* --- Laptop > 992px */
+@media screen and (max-width: 1199px) {
+  
+}
+
+/* --- Desktop > 1200px */
+@media screen and (min-width: 1200px) {
+  
+}
