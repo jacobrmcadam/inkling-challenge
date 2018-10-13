@@ -109,6 +109,10 @@ button.btn:hover {
   margin: 0;
 }
 
+nav ul a {
+  padding: 0 5px;
+}
+
 nav a.sidenav-trigger {
   display: block;
 }
@@ -117,8 +121,18 @@ nav a.sidenav-trigger {
   padding: 15px;
 }
 
+.sidenav {
+  background-color: #AC4C3D;
+}
+.sidenav ul li a, 
+.sidenav li > a > i.material-icons {
+  color: #fff;
+}
+
 /* --- Banner */
-#banner {
+#banner, #footer{
+  background-image: url('media/custom-texture2.png');
+  background-size: cover;
   background-color: #AC4C3D;
 }
 
@@ -149,8 +163,8 @@ nav a.sidenav-trigger {
 .note-description {}
 
 /* --- Footer */
-#footer {
-  background-color: #AC4C3D;
+#footer{
+  background-image: url('media/custom-texture.png'), url('media/custom-texture2.png');
 }
 
 
@@ -164,10 +178,23 @@ nav a.sidenav-trigger {
     text-align: left;
   }
   
+  #banner h1 {
+    font-size: 2rem;
+  }
+  
+  #banner h2 {
+    font-size: 2rem;
+    margin-top: 15px;
+  }
+  
 }
 
 /* --- Tablet > 600px */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px and max-width: 992px) {
+  
+  #banner h1 {
+    font-size: 3rem;
+  }
   
 }
 

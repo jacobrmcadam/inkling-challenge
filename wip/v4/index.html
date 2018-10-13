@@ -14,7 +14,7 @@
 <body>
 <div id="nav-mobile" class="sidenav">
   <header>
-    <img src="media/logo.png" alt="" class="responsive-img" />
+    <img src="media/logo-contrast.png" alt="" class="responsive-img" />
   </header>
   <section>
   <ul>
@@ -33,11 +33,15 @@
   <nav id="main-nav" role="navigation">
     <div class="nav-wrapper container">
       
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      
       <a id="logo-container" href="#" class="brand-logo center"><img src="media/logo-contrast.png" class="responsive-img"></a>
+            
+      <ul class="left">
+        <li><a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons left">menu</i><span class="hide-on-med-and-down">System Navigation</span></a></li>
+      </ul>
       
-      <a href="#modal1" class="modal-trigger right"><i class="material-icons">arrow_drop_down_circle</i></a>
+      <ul class="right">
+        <li><a href="#modal1" class="modal-trigger right"><i class="material-icons left">arrow_drop_down_circle</i><span class="hide-on-med-and-down">Article Navigation</span></a></li>
+      </ul>
       
     </div>
   </nav>
